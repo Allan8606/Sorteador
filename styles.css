@@ -27,6 +27,7 @@ body {
 .img-titulo h1 {
     padding-top: 20px;
     font-size: 40px;
+    text-align: center;
 }
 h2 {
     padding-top: 80px;
@@ -48,6 +49,8 @@ span {
     font-weight: 600;
     font-size: 20px;
     padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
 }
 button {
     margin-top: 30px;
@@ -60,6 +63,9 @@ button {
 
     font-weight: bold;
 }
+button:hover {
+    background-color: #cf9829;
+}
 .text {
     padding-top: 20px;
     font-size: 20px;
@@ -67,4 +73,5 @@ button {
     font-style: italic;
     color: #ff536a;
     display: none;
+    text-align: center;
 }
